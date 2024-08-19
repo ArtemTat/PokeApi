@@ -19,7 +19,6 @@ namespace PokReviewApp.Repository
         public bool CreateCategory(Category category)
         {
             _context.Add(category);
-
             return Save();
         }
 
